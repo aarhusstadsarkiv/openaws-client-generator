@@ -1,8 +1,9 @@
-# How to create the openaws-client client
+# openaws-client-generator
 
-This will create the openaws-client from the openapi definition found on dev.openaws.dk
+This is a simple script to generate the openaws-client from the openapi definition found on dev.openaws.dk
 
-## Install 
+## Install
+
     git clone https://github.com/aarhusstadsarkiv/openaws-client-generator.git
     cd openaws-client-generator
     virtualvenv venv
@@ -22,4 +23,4 @@ Then
 
     cd openaws-client 
     
-And then commit any changes and maybe create a new `tag`.
+And now commit any changes and maybe create a new `tag`.
