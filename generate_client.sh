@@ -20,7 +20,7 @@ cp -rf openaws-client/* openaws-client-tmp/
 rm -rf openaws-client
 mv openaws-client-tmp openaws-client
 
-MESSAGE="Client made using: [openapi-python-client](https://github.com/openapi-generators/openapi-python-client)\n"
+MESSAGE="Client made using: [openapi-python-client](https://github.com/openapi-generators/openapi-python-client) and [openaws-client-generator](https://github.com/aarhusstadsarkiv/openaws-client-generator)\n"
 # Add MESSAGE TO the top of the file 'openaws-client/README.md'
 echo "$MESSAGE" | cat - openaws-client/README.md > temp && mv temp openaws-client/README.md
 
