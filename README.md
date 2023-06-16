@@ -28,3 +28,7 @@ And now commit any changes and maybe create a new `tag`.
 Visit the generated client here:
 
 [openaws-client](https://github.com/aarhusstadsarkiv/openaws-client)
+
+## Note
+
+You may look into [openaws.py](openaws.py) for some shortcuts into the generated client.
