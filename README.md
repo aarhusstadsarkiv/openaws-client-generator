@@ -4,9 +4,9 @@ This is a simple script to generate the openaws-client from the openapi definiti
 
 ## Install
 
-    git clone https://github.com/aarhusstadsarkiv/openaws-client-generator.git
+    git clone git@github.com:aarhusstadsarkiv/openaws-client-generator.git
     cd openaws-client-generator
-    virtualvenv venv
+    virtualenv venv
     source venv/bin/activate
     pip install -r requirements.txt
 
