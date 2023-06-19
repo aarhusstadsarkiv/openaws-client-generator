@@ -29,6 +29,15 @@ Visit the generated client here:
 
 [openaws-client](https://github.com/aarhusstadsarkiv/openaws-client)
 
+## Install or update the client
+
+    pip uninstall -y openaws-client                                                                                         
+    pip install git+https://github.com/aarhusstadsarkiv/openaws-client@main
+
+Or if you have a specific tag:
+
+    pip install git+https://github.com/aarhusstadsarkiv/openaws-client@v0.7.0
+
 ## Note
 
 You may look into [openaws.py](openaws.py) for some shortcuts into the generated client.
